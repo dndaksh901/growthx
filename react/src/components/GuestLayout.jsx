@@ -21,7 +21,7 @@ function GuestLayout() {
   }
   return (
     <>
-      <div id="guestLayout">
+      <div id="guestLayout" className='loginForm'>
       <Outlet />
     </div>
     </>
